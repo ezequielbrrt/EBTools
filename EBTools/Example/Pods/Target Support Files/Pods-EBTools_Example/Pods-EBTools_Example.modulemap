@@ -1,0 +1,6 @@
+framework module Pods_EBTools_Example {
+  umbrella header "Pods-EBTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

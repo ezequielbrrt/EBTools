@@ -1,0 +1,6 @@
+framework module EBTools {
+  umbrella header "EBTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

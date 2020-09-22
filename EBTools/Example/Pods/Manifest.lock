@@ -1,0 +1,16 @@
+PODS:
+  - EBTools (0.1.0)
+
+DEPENDENCIES:
+  - EBTools (from `../`)
+
+EXTERNAL SOURCES:
+  EBTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EBTools: e3c2bd9daaff8571cbb634b7056fb80f0366e648
+
+PODFILE CHECKSUM: df306888710c3a4d81cb54c7a68f04576aa0e621
+
+COCOAPODS: 1.9.3
