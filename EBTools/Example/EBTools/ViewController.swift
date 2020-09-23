@@ -9,10 +9,14 @@
 import UIKit
 import EBTools
 
+@available(iOS 10.0, *)
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        EBToolsUI.feedback(style: .light)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

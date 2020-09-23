@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3705DE7825198F7B007E2B63 /* EBTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705DE7725198F7B007E2B63 /* EBTools.swift */; };
+		3705DE7825198F7B007E2B63 /* EBToolsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705DE7725198F7B007E2B63 /* EBToolsUI.swift */; };
+		3705DE7B2519933C007E2B63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705DE7A2519933C007E2B63 /* UIView+Extensions.swift */; };
+		37AD8DC6251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AD8DC5251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift */; };
 		6F515982915FC939702944D814138BD5 /* EBTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EBF838BF05413264F3A3D1FABA74FA /* EBTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9022FC939420550B2A2C16DA753EF310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9C253BB5F611610AD0D5121A1324D747 /* Pods-EBTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F359C9AB9F90482FE6F1E65EAEEB561D /* Pods-EBTools_Example-dummy.m */; };
@@ -44,7 +46,9 @@
 		2BFD47C2BA226F53B667C40CEB4EB026 /* EBTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EBTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC688891C485D3468AC7B86A55892AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3705DE7725198F7B007E2B63 /* EBTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBTools.swift; sourceTree = "<group>"; };
+		3705DE7725198F7B007E2B63 /* EBToolsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBToolsUI.swift; sourceTree = "<group>"; };
+		3705DE7A2519933C007E2B63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		37AD8DC5251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EBToolsUI+ExtensionUIColor.swift"; sourceTree = "<group>"; };
 		39C72A6CA2BD936F3E605E7392DFC764 /* Pods-EBTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EBTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		40212BA6D9AC0492E2200FBAB412FC72 /* Pods-EBTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EBTools_Tests.modulemap"; sourceTree = "<group>"; };
 		41648AFB8B606443AB465B630B8F40AE /* Pods-EBTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EBTools_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -129,9 +133,19 @@
 		3705DE7625198F69007E2B63 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3705DE7725198F7B007E2B63 /* EBTools.swift */,
+				3705DE7725198F7B007E2B63 /* EBToolsUI.swift */,
+				37AD8DC5251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift */,
+				3705DE792519932D007E2B63 /* Extensions */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		3705DE792519932D007E2B63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3705DE7A2519933C007E2B63 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		76BABE3E73CE8AD24343311CFD17D502 /* Pod */ = {
@@ -380,7 +394,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3705DE7825198F7B007E2B63 /* EBTools.swift in Sources */,
+				37AD8DC6251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift in Sources */,
+				3705DE7B2519933C007E2B63 /* UIView+Extensions.swift in Sources */,
+				3705DE7825198F7B007E2B63 /* EBToolsUI.swift in Sources */,
 				9F2797C4A0266178628823C69FA742A2 /* EBTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
