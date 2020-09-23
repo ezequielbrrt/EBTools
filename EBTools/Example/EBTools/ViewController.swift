@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         EBToolsUI.feedback(style: .light)
-        
+        let color = EBToolsUI.rgbToColor(r: 0, g: 0, b:0)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
