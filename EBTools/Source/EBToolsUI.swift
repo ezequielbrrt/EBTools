@@ -17,7 +17,7 @@ public final class EBToolsUI {
         - Parameter style: UIImpactFeedbackStyle
      */
     @available(iOS 10.0, *)
-    public final class func feedback(style: UIImpactFeedbackStyle) {
+    public final class func feedback(style: UIImpactFeedbackGenerator.FeedbackStyle) {
         let generator = UIImpactFeedbackGenerator(style:.light)
         generator.impactOccurred()
     }

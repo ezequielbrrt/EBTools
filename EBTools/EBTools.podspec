@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EBTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EBTools.'
+  s.summary          = 'Library with helper methods that help day to day programming IOS APPS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Library with helper methods that help day to day programming IOS APPS
+  A lot of extensions of UIView, UIButton, UILabel, helper methods, for Example a method to create a UIColor from RGB,
+  The main purpose is to help developers that write UIViews only by code
                        DESC
 
-  s.homepage         = 'https://github.com/be-tech-capital/EBTools'
+  s.homepage         = 'https://github.com/ezequielbrrt/EBTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'be-tech-capital' => 'ezequielbrrt@gmail.com' }
-  s.source           = { :git => 'https://github.com/be-tech-capital/EBTools.git', :tag => s.version.to_s }
+  s.author           = { 'Ezequiel Barreto' => 'ezequielbrrt@gmail.com' }
+  s.source           = { :git => 'https://github.com/ezequielbrrt/EBTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'EBTools/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+  s.swift_versions = '5.0'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'EBTools' => ['EBTools/Assets/*.png']
