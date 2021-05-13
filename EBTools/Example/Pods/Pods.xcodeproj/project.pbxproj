@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3705DE7825198F7B007E2B63 /* EBToolsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705DE7725198F7B007E2B63 /* EBToolsUI.swift */; };
 		3705DE7B2519933C007E2B63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705DE7A2519933C007E2B63 /* UIView+Extensions.swift */; };
+		3791C4B125509E38005E84AA /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791C4B025509E38005E84AA /* UIButton+Extensions.swift */; };
 		37AD8DC6251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AD8DC5251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift */; };
 		6F515982915FC939702944D814138BD5 /* EBTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EBF838BF05413264F3A3D1FABA74FA /* EBTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9022FC939420550B2A2C16DA753EF310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -48,6 +49,7 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3705DE7725198F7B007E2B63 /* EBToolsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBToolsUI.swift; sourceTree = "<group>"; };
 		3705DE7A2519933C007E2B63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		3791C4B025509E38005E84AA /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		37AD8DC5251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EBToolsUI+ExtensionUIColor.swift"; sourceTree = "<group>"; };
 		39C72A6CA2BD936F3E605E7392DFC764 /* Pods-EBTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EBTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		40212BA6D9AC0492E2200FBAB412FC72 /* Pods-EBTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EBTools_Tests.modulemap"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				3705DE7A2519933C007E2B63 /* UIView+Extensions.swift */,
+				3791C4B025509E38005E84AA /* UIButton+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				37AD8DC6251AD94900643931 /* EBToolsUI+ExtensionUIColor.swift in Sources */,
 				3705DE7B2519933C007E2B63 /* UIView+Extensions.swift in Sources */,
 				3705DE7825198F7B007E2B63 /* EBToolsUI.swift in Sources */,
+				3791C4B125509E38005E84AA /* UIButton+Extensions.swift in Sources */,
 				9F2797C4A0266178628823C69FA742A2 /* EBTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
