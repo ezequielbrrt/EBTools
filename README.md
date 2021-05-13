@@ -33,6 +33,6 @@ Get the top and bottom anchor constraint to SafeAfea no matter if the device has
   myView.translatesAutoresizingMaskIntoConstraints = false
   .
   .
-  myView.topAnchor.constraint(self.view.getTopAnchor()).isActive = true
-  myView.topAnchor.constraint(self.view.getBottomAnchor()).isActive = true
+  myView.topAnchor.constraint(equalTo: self.view.getTopAnchor()).isActive = true
+  myView.bottomAnchor.constraint(equalTo: self.view.getBottomAnchor()).isActive = true
 ```
